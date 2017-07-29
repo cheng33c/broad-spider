@@ -1,7 +1,4 @@
 # 分布式爬虫系统
-## 队名： Morris
-## 队员： 陈诚 韩存鑫 周立禅
-## 指导老师： 张立凡
 
 ## 安装方法
 > Debian/Ubuntu/Mint: 
@@ -9,7 +6,7 @@
 > <br>sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
 > <br> pip3 -r install requirements.txt
 
-## 使用方法（评委）
+## 使用方法
 
 ## 方法1：
 ### 连接主机
@@ -30,20 +27,6 @@ ssh root@120.24.231.4
 
 ### 运行网页结构化
 sh extract-blog.sh
-
-## 方法2：
-
-ssh root@112.74.77.166
-<br>cd Broad-Spider-src/scripts
-<br>ssh root@120.24.231.4
-<br>cd usr
-<br>(切换回112.74.77.166)
-<br>（注： start-now.sh是上面脚本集合执行，可能需要等待比较长的时间）
-<br>sh start-now.sh
-
-
-## 使用方法视频介绍
-请看： 项目介绍/使用方法.mp4
 
 ## 目录结构
 	+ cmlnl 网页结构化程序
