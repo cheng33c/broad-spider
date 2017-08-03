@@ -15,6 +15,7 @@ from .general_config import *
 from .downloader_config import *
 
 
+
 # browser driver
 browser = webdriver.PhantomJS(service_args=SERVICE_AGES)
 browser.set_window_size(1400, 900)
@@ -53,7 +54,7 @@ class PhdownSpider(RedisSpider):
         :return:
         """
         print(path)
-        html = Document(browser.page_source).content()
+        html = Document(browser.page_source).summary()
         with open(path, 'w') as f:
             f.write(html)
 

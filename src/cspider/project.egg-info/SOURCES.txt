@@ -19,7 +19,6 @@ cspider/scrapy_redis/spiders.py
 cspider/scrapy_redis/tests.py
 cspider/spiders/__init__.py
 cspider/spiders/downloader_config.py
-cspider/spiders/ebay.py
 cspider/spiders/ebayredis.py
 cspider/spiders/general_config.py
 cspider/spiders/phdown.py

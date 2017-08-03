@@ -12,6 +12,7 @@ from .general_config import *
 from .spider_config import *
 
 browser = webdriver.PhantomJS(service_args=SERVICE_AGES)
+#browser = webdriver.Chrome()
 browser.set_window_size(1400, 900)
 
 bloom_links = BloomFilter(capacity=100000, error_rate=0.001)
@@ -31,7 +32,7 @@ class EbayredisSpider(RedisSpider):
     def __init__(self, *args, **kwargs):
         # Dynamically define the allowed domains list.
         domain = kwargs.pop('domain', '')
-        r.rpush(spider_name, "http://www.taobao.com")
+        r.rpush(spider_name, "http://www.taobao.com/")
         self.allowed_domains = filter(None, domain.split(','))
         super(EbayredisSpider, self).__init__(*args, **kwargs)
 

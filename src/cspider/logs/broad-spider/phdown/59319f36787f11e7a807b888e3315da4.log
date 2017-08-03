@@ -1,0 +1,1237 @@
+2017-08-04 03:10:08 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: cspider)
+2017-08-04 03:10:08 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'cspider.spiders', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['cspider.spiders'], 'COOKIES_ENABLED': False, 'BOT_NAME': 'cspider', 'RETRY_ENABLED': False, 'REACTOR_THREADPOOL_MAXSIZE': 20, 'AJAXCRAWL_ENABLED': True, 'CONCURRENT_REQUESTS': 100, 'DOWNLOAD_TIMEOUT': 15, 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'logs/broad-spider/phdown/59319f36787f11e7a807b888e3315da4.log'}
+2017-08-04 03:10:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-08-04 03:10:08 [phdown] INFO: Reading start URLs from redis key 'phdown:tasklist' (batch size: 100, encoding: utf-8
+2017-08-04 03:10:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.ajaxcrawl.AjaxCrawlMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-08-04 03:10:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-08-04 03:10:08 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-08-04 03:10:08 [scrapy.core.engine] INFO: Spider opened
+2017-08-04 03:10:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  8.295 .module-wrap.J_tb_lazyload>.by-page
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  6.692 .by-page>.title
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  6.462 .by-page>.title
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  2.450 .item>a
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  2.450 .item>a
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  8.295 .module-wrap.J_tb_lazyload>.by-page
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  6.692 .by-page>.title
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  6.462 .by-page>.title
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  2.450 .item>a
+2017-08-04 03:10:10 [readability.readability] INFO: Top 5 :  2.450 .item>a
+2017-08-04 03:10:11 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:10:12 [readability.readability] INFO: Top 5 :  7.340 a.pz-li.clearfix>.pz-li-info
+2017-08-04 03:10:12 [readability.readability] INFO: Top 5 :  7.320 a.pz-li.clearfix.nosolid>.pz-li-info
+2017-08-04 03:10:12 [readability.readability] INFO: Top 5 :  7.300 a.pz-li.clearfix>.pz-li-info
+2017-08-04 03:10:12 [readability.readability] INFO: Top 5 :  7.290 a.pz-li.clearfix>.pz-li-info
+2017-08-04 03:10:12 [readability.readability] INFO: Top 5 :  2.354 div{05}>.tab-pannel.clearfix
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.953 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.953 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.951 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.950 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.948 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.953 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.953 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.951 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.950 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.948 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.960 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.959 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.959 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.959 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.957 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.960 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.959 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.959 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.959 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:13 [readability.readability] INFO: Top 5 : 62.957 .slide-wrap>.slide.J_Slide_El
+2017-08-04 03:10:14 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:10:15 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:10:15 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:10:15 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:15 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:15 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:16 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:10:16 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:10:16 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:16 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:16 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:16 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:10:17 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:17 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:17 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:18 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:18 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:18 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:18 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:10:19 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:19 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:19 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:19 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:19 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:19 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 : 48.493 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 : 23.015 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 :  2.420 li.c2017-1-131297-1501787420462-item.oneline>a.c2017-1-131297-1501787420462-red
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 :  2.400 li.c2017-1-131297-1501787420462-item.oneline>a.c2017-1-131297-1501787420462-red
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 :  2.400 li.c2017-1-131297-1501787420462-item.oneline>a.c2017-1-131297-1501787420462-red
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 : 48.504 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 : 23.019 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 :  2.420 li.c2017-1-131297-1501787420462-item.oneline>a.c2017-1-131297-1501787420462-red
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 :  2.400 li.c2017-1-131297-1501787420462-item.oneline>a.c2017-1-131297-1501787420462-red
+2017-08-04 03:10:21 [readability.readability] INFO: Top 5 :  2.400 li.c2017-1-131297-1501787420462-item.oneline>a.c2017-1-131297-1501787420462-red
+2017-08-04 03:10:22 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:10:22 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:24 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:10:25 [readability.readability] INFO: Top 5 : 43.490 .screen-outer.clearfix>.main
+2017-08-04 03:10:25 [readability.readability] INFO: Top 5 : 34.000 .main>.tbh-belt.J_Module
+2017-08-04 03:10:25 [readability.readability] INFO: Top 5 : 43.490 .screen-outer.clearfix>.main
+2017-08-04 03:10:25 [readability.readability] INFO: Top 5 : 34.000 .main>.tbh-belt.J_Module
+2017-08-04 03:10:26 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:26 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:26 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : 16.622 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940>body#readabilityBody
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 :  0.720 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -9.248 .footer>.footer-bd
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : 16.591 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940>body#readabilityBody
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 :  0.719 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:27 [readability.readability] INFO: Top 5 : -9.248 .footer>.footer-bd
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:28 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:10:29 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:29 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:29 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:30 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:30 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:30 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : 16.501 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940>body#readabilityBody
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 :  0.728 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : -9.248 .footer>.footer-bd
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : 16.472 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940>body#readabilityBody
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 :  0.727 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w940
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:32 [readability.readability] INFO: Top 5 : -9.248 .footer>.footer-bd
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:10:33 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://mpage.taobao.com/hd/download.html>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://mpage.taobao.com/hd/download.html took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://q.taobao.com>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://q.taobao.com took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://yun.taobao.com>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://yun.taobao.com took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://wujin.taobao.com/>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://wujin.taobao.com/ took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://jubao.alibaba.com/internet/readme.htm?site=taobao>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://jubao.alibaba.com/internet/readme.htm?site=taobao took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.25pp.com/android/?taobao>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.25pp.com/android/?taobao took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://qiang.taobao.com/category.htm?categoryId=308000>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://qiang.taobao.com/category.htm?categoryId=308000 took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://qiang.taobao.com/category.htm?categoryId=309000>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://qiang.taobao.com/category.htm?categoryId=309000 took longer than 15.0 seconds..
+2017-08-04 03:10:33 [scrapy.core.scraper] ERROR: Error downloading <GET https://qiang.taobao.com/category.htm?categoryId=316000>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://qiang.taobao.com/category.htm?categoryId=316000 took longer than 15.0 seconds..
+2017-08-04 03:10:34 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:34 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:34 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:34 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:34 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:34 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:36 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:36 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:36 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:36 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:36 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:36 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://qiang.taobao.com/category.htm?categoryId=306000>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://qiang.taobao.com/category.htm?categoryId=306000 took longer than 15.0 seconds..
+2017-08-04 03:10:36 [scrapy.core.scraper] ERROR: Error downloading <GET https://qiang.taobao.com/category.htm?categoryId=315000>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://qiang.taobao.com/category.htm?categoryId=315000 took longer than 15.0 seconds..
+2017-08-04 03:10:37 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:37 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:37 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:38 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:38 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:38 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:39 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:39 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:39 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:40 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:40 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:40 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:41 [readability.readability] INFO: Top 5 : 61.566 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:41 [readability.readability] INFO: Top 5 : 28.486 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:41 [readability.readability] INFO: Top 5 : 61.556 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:41 [readability.readability] INFO: Top 5 : 28.482 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:42 [scrapy.core.scraper] ERROR: Error downloading <GET https://consumerservice.taobao.com/online-help?spm=a215a.7683510.754895749.2.Tr2Fkz>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://consumerservice.taobao.com/online-help?spm=a215a.7683510.754895749.2.Tr2Fkz took longer than 15.0 seconds..
+2017-08-04 03:10:43 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:43 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:43 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:43 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:43 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:43 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:44 [readability.readability] INFO: Top 5 : 61.386 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:44 [readability.readability] INFO: Top 5 : 28.404 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:45 [readability.readability] INFO: Top 5 : 61.375 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:45 [readability.readability] INFO: Top 5 : 28.400 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:47 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:47 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:47 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:47 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:47 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:47 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:48 [readability.readability] INFO: Top 5 : 61.318 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:48 [readability.readability] INFO: Top 5 : 28.374 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:49 [readability.readability] INFO: Top 5 : 61.308 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:49 [readability.readability] INFO: Top 5 : 28.369 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:50 [readability.readability] INFO: Top 5 : 61.487 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:50 [readability.readability] INFO: Top 5 : 28.450 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:51 [readability.readability] INFO: Top 5 : 61.477 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:51 [readability.readability] INFO: Top 5 : 28.446 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:52 [readability.readability] INFO: Top 5 : 61.363 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:52 [readability.readability] INFO: Top 5 : 28.394 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:53 [readability.readability] INFO: Top 5 : 61.353 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:53 [readability.readability] INFO: Top 5 : 28.390 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:54 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:54 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:54 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:55 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:10:55 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:10:55 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:10:56 [readability.readability] INFO: Top 5 : 61.495 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:56 [readability.readability] INFO: Top 5 : 28.454 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:56 [readability.readability] INFO: Top 5 : 61.485 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:56 [readability.readability] INFO: Top 5 : 28.450 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:58 [readability.readability] INFO: Top 5 : 61.677 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:58 [readability.readability] INFO: Top 5 : 28.536 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:10:59 [readability.readability] INFO: Top 5 : 61.666 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:10:59 [readability.readability] INFO: Top 5 : 28.532 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:00 [readability.readability] INFO: Top 5 : 61.509 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:00 [readability.readability] INFO: Top 5 : 28.460 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:01 [readability.readability] INFO: Top 5 : 61.498 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:01 [readability.readability] INFO: Top 5 : 28.456 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:02 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:11:02 [readability.readability] INFO: Top 5 : -3.532 .tb-footer>.tb-footer-hd
+2017-08-04 03:11:02 [readability.readability] INFO: Top 5 : -5.866 #J_SiteFooter>.tb-footer
+2017-08-04 03:11:02 [readability.readability] INFO: Top 5 : -6.508 .tb-footer>.tb-footer-bd
+2017-08-04 03:11:02 [readability.readability] INFO: Top 5 : -3.532 .tb-footer>.tb-footer-hd
+2017-08-04 03:11:02 [readability.readability] INFO: Top 5 : -5.866 #J_SiteFooter>.tb-footer
+2017-08-04 03:11:02 [readability.readability] INFO: Top 5 : -6.508 .tb-footer>.tb-footer-bd
+2017-08-04 03:11:04 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:04 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:04 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:04 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:04 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:04 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:05 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:05 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:05 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:06 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:06 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:06 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:07 [readability.readability] INFO: Top 5 : 61.643 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:07 [readability.readability] INFO: Top 5 : 28.520 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:07 [readability.readability] INFO: Top 5 : 61.628 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:07 [readability.readability] INFO: Top 5 : 28.513 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:09 [readability.readability] INFO: Top 5 : 61.842 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:09 [readability.readability] INFO: Top 5 : 28.611 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:10 [readability.readability] INFO: Top 5 : 61.827 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:10 [readability.readability] INFO: Top 5 : 28.604 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer>.tb-footer-hd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -5.866 #J_SiteFooter>.tb-footer
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer>.tb-footer-bd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer>.tb-footer-hd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -5.866 #J_SiteFooter>.tb-footer
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer>.tb-footer-bd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer>.tb-footer-hd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -5.866 #J_SiteFooter>.tb-footer
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer>.tb-footer-bd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer>.tb-footer-hd
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -5.866 #J_SiteFooter>.tb-footer
+2017-08-04 03:11:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer>.tb-footer-bd
+2017-08-04 03:11:12 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:12 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:12 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:13 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:13 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:13 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : 41.984 .content>.J_lpContent
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : 28.018 .rain-layout.nb-detail>.content
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : -9.248 .footer>.footer-bd
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : 41.984 .content>.J_lpContent
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : 28.018 .rain-layout.nb-detail>.content
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:11:14 [readability.readability] INFO: Top 5 : -9.248 .footer>.footer-bd
+2017-08-04 03:11:15 [readability.readability] INFO: Top 5 : 47.359 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:15 [readability.readability] INFO: Top 5 : 22.517 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:15 [readability.readability] INFO: Top 5 :  2.400 li.c2017-1-131297-1501787475038-item.oneline>a.c2017-1-131297-1501787475038-red
+2017-08-04 03:11:15 [readability.readability] INFO: Top 5 :  2.400 li.c2017-1-131297-1501787475038-item.oneline>a.c2017-1-131297-1501787475038-red
+2017-08-04 03:11:15 [readability.readability] INFO: Top 5 :  2.390 li.c2017-1-131297-1501787475038-item.oneline>a.c2017-1-131297-1501787475038-red
+2017-08-04 03:11:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://s.taobao.com/search?spm=a21bo.50862.201867-links-1.5.0ghns9&initiative_id=tbindexz_20170317&ie=utf8&sourceId=tb.index&search_type=item&ssid=s5-e&commend=all&imgfile=&q=%E7%8C%AB%E8%B7%9F%E9%9E%8B%E5%A5%B32017%E6%96%B0%E6%AC%BE&suggest=0_1&_input_charset=utf-8&wq=%E7%8C%AB%E8%B7%9F%E9%9E%8B&suggest_query=%E7%8C%AB%E8%B7%9F%E9%9E%8B&source=suggest> (referer: None)
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/PycharmProjects/spider/broad-spider/src/cspider/cspider/spiders/phdown.py", line 43, in parse
+    self.download_url_min(self.build_path1(link))
+  File "/home/c/PycharmProjects/spider/broad-spider/src/cspider/cspider/spiders/phdown.py", line 58, in download_url_min
+    with open(path, 'w') as f:
+OSError: [Errno 36] File name too long: 'download_data/https:s.taobao.comsearch?spm=a21bo.50862.201867-links-1.5.0ghns9&initiative_id=tbindexz_20170317&ie=utf8&sourceId=tb.index&search_type=item&ssid=s5-e&commend=all&imgfile=&q=%E7%8C%AB%E8%B7%9F%E9%9E%8B%E5%A5%B32017%E6%96%B0%E6%AC%BE&suggest=0_1&_input_charset=utf-8&wq=%E7%8C%AB%E8%B7%9F%E9%9E%8B&suggest_query=%E7%8C%AB%E8%B7%9F%E9%9E%8B&source=suggest'
+2017-08-04 03:11:15 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 0 items (at 0 items/min)
+2017-08-04 03:11:17 [readability.readability] INFO: Top 5 : 61.017 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:17 [readability.readability] INFO: Top 5 : 28.241 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:17 [readability.readability] INFO: Top 5 : 61.017 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:17 [readability.readability] INFO: Top 5 : 28.241 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:18 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:11:18 [readability.readability] INFO: Top 5 : 51.260 .box-out>.text
+2017-08-04 03:11:18 [readability.readability] INFO: Top 5 : 34.910 .box-out>.text
+2017-08-04 03:11:18 [readability.readability] INFO: Top 5 : 18.085 #box-right.box-right>.box-out
+2017-08-04 03:11:19 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:11:20 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:20 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:20 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:21 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:21 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:21 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.690 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.340 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.340 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.290 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.290 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.690 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.340 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.340 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.290 li>a
+2017-08-04 03:11:22 [readability.readability] INFO: Top 5 :  2.290 li>a
+2017-08-04 03:11:23 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:11:25 [readability.readability] INFO: Top 5 : 61.758 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:25 [readability.readability] INFO: Top 5 : 28.572 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:26 [readability.readability] INFO: Top 5 : 61.743 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:26 [readability.readability] INFO: Top 5 : 28.566 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:27 [readability.readability] INFO: Top 5 : 61.717 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:27 [readability.readability] INFO: Top 5 : 28.554 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:28 [readability.readability] INFO: Top 5 : 61.702 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:28 [readability.readability] INFO: Top 5 : 28.547 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:29 [readability.readability] INFO: Top 5 : 61.763 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:29 [readability.readability] INFO: Top 5 : 28.575 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:29 [readability.readability] INFO: Top 5 : 61.748 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:29 [readability.readability] INFO: Top 5 : 28.568 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:32 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:32 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:32 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:32 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:32 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:32 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:33 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:33 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:33 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:34 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:34 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:34 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:35 [readability.readability] INFO: Top 5 : 61.895 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:35 [readability.readability] INFO: Top 5 : 32.280 .row.has-overlay>.body
+2017-08-04 03:11:35 [readability.readability] INFO: Top 5 : 28.632 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:35 [readability.readability] INFO: Top 5 :  6.140 .group>.row.has-overlay
+2017-08-04 03:11:36 [readability.readability] INFO: Top 5 : 61.520 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:36 [readability.readability] INFO: Top 5 : 28.462 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:36 [readability.readability] INFO: Top 5 : 61.501 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:36 [readability.readability] INFO: Top 5 : 28.453 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:37 [readability.readability] INFO: Top 5 : 61.674 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:37 [readability.readability] INFO: Top 5 : 32.260 .row.has-overlay>.body
+2017-08-04 03:11:37 [readability.readability] INFO: Top 5 : 28.532 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:37 [readability.readability] INFO: Top 5 :  6.130 .group>.row.has-overlay
+2017-08-04 03:11:38 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:38 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:38 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:39 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:39 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:39 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:40 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:40 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:40 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:40 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:11:40 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:11:40 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:11:41 [readability.readability] INFO: ruthless removal did not work. 
+2017-08-04 03:11:41 [readability.readability] INFO: Top 5 : 43.512 .screen-outer.clearfix>.main
+2017-08-04 03:11:41 [readability.readability] INFO: Top 5 : 34.000 .main>.tbh-belt.J_Module
+2017-08-04 03:11:41 [readability.readability] INFO: Top 5 : 43.512 .screen-outer.clearfix>.main
+2017-08-04 03:11:41 [readability.readability] INFO: Top 5 : 34.000 .main>.tbh-belt.J_Module
+2017-08-04 03:11:42 [readability.readability] INFO: Top 5 : 49.186 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:42 [readability.readability] INFO: Top 5 : 23.326 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:43 [readability.readability] INFO: Top 5 : 49.221 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:43 [readability.readability] INFO: Top 5 : 23.340 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:44 [readability.readability] INFO: Top 5 : 47.807 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:44 [readability.readability] INFO: Top 5 : 22.712 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:44 [readability.readability] INFO: Top 5 :  2.440 li.c2017-1-131297-1501787504026-item.oneline>a.c2017-1-131297-1501787504026-red
+2017-08-04 03:11:44 [readability.readability] INFO: Top 5 : -0.000 ul.c2017-1-131297-1501787504026-item-list>li.c2017-1-131297-1501787504026-item.oneline
+2017-08-04 03:11:45 [readability.readability] INFO: Top 5 : 47.818 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:45 [readability.readability] INFO: Top 5 : 22.716 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:45 [readability.readability] INFO: Top 5 :  2.440 li.c2017-1-131297-1501787504026-item.oneline>a.c2017-1-131297-1501787504026-red
+2017-08-04 03:11:45 [readability.readability] INFO: Top 5 : -0.000 ul.c2017-1-131297-1501787504026-item-list>li.c2017-1-131297-1501787504026-item.oneline
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 : 47.337 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 : 22.493 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 :  2.290 li.c2017-1-131297-1501787505776-item.oneline.c2017-1-131297-1501787505776-noprops>a.c2017-1-131297-1501787505776-red
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 : -0.000 ul.c2017-1-131297-1501787505776-item-list>li.c2017-1-131297-1501787505776-item.oneline.c2017-1-131297-1501787505776-noprops
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 : 47.348 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 : 22.497 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 :  2.290 li.c2017-1-131297-1501787505776-item.oneline.c2017-1-131297-1501787505776-noprops>a.c2017-1-131297-1501787505776-red
+2017-08-04 03:11:46 [readability.readability] INFO: Top 5 : -0.000 ul.c2017-1-131297-1501787505776-item-list>li.c2017-1-131297-1501787505776-item.oneline.c2017-1-131297-1501787505776-noprops
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 : 45.723 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 : 21.778 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 :  2.280 li.c2017-1-131297-1501787507619-item.oneline.c2017-1-131297-1501787507619-noprops>a.c2017-1-131297-1501787507619-red
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 :  2.260 li.c2017-1-131297-1501787507619-item.oneline.c2017-1-131297-1501787507619-noprops>a.c2017-1-131297-1501787507619-red
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 :  2.250 li.c2017-1-131297-1501787507619-item.oneline.c2017-1-131297-1501787507619-noprops>a.c2017-1-131297-1501787507619-red
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 : 45.735 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 : 21.783 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 :  2.280 li.c2017-1-131297-1501787507619-item.oneline.c2017-1-131297-1501787507619-noprops>a.c2017-1-131297-1501787507619-red
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 :  2.260 li.c2017-1-131297-1501787507619-item.oneline.c2017-1-131297-1501787507619-noprops>a.c2017-1-131297-1501787507619-red
+2017-08-04 03:11:48 [readability.readability] INFO: Top 5 :  2.250 li.c2017-1-131297-1501787507619-item.oneline.c2017-1-131297-1501787507619-noprops>a.c2017-1-131297-1501787507619-red
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 : 47.169 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 : 22.437 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 :  2.320 li.c2017-1-131297-1501787509657-item.oneline.c2017-1-131297-1501787509657-noprops>a.c2017-1-131297-1501787509657-red
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 :  2.280 li.c2017-1-131297-1501787509657-item.oneline>a.c2017-1-131297-1501787509657-red
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 :  2.260 li.c2017-1-131297-1501787509657-item.oneline.c2017-1-131297-1501787509657-noprops>a.c2017-1-131297-1501787509657-red
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 : 47.180 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 : 22.442 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 :  2.320 li.c2017-1-131297-1501787509657-item.oneline.c2017-1-131297-1501787509657-noprops>a.c2017-1-131297-1501787509657-red
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 :  2.280 li.c2017-1-131297-1501787509657-item.oneline>a.c2017-1-131297-1501787509657-red
+2017-08-04 03:11:50 [readability.readability] INFO: Top 5 :  2.260 li.c2017-1-131297-1501787509657-item.oneline.c2017-1-131297-1501787509657-noprops>a.c2017-1-131297-1501787509657-red
+2017-08-04 03:11:51 [readability.readability] INFO: Top 5 : 52.334 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:51 [readability.readability] INFO: Top 5 : 24.699 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:52 [readability.readability] INFO: Top 5 : 52.362 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:52 [readability.readability] INFO: Top 5 : 24.709 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:53 [readability.readability] INFO: Top 5 : 46.959 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:53 [readability.readability] INFO: Top 5 : 22.338 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:53 [readability.readability] INFO: Top 5 :  4.700 li.c2017-1-131297-1501787513071-item.oneline>a.c2017-1-131297-1501787513071-red
+2017-08-04 03:11:53 [readability.readability] INFO: Top 5 :  2.420 li.c2017-1-131297-1501787513071-item.oneline>a.c2017-1-131297-1501787513071-red
+2017-08-04 03:11:53 [readability.readability] INFO: Top 5 :  2.290 li.c2017-1-131297-1501787513071-item.oneline.c2017-1-131297-1501787513071-noprops>a.c2017-1-131297-1501787513071-red
+2017-08-04 03:11:54 [readability.readability] INFO: Top 5 : 46.970 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:54 [readability.readability] INFO: Top 5 : 22.342 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:54 [readability.readability] INFO: Top 5 :  4.700 li.c2017-1-131297-1501787513071-item.oneline>a.c2017-1-131297-1501787513071-red
+2017-08-04 03:11:54 [readability.readability] INFO: Top 5 :  2.420 li.c2017-1-131297-1501787513071-item.oneline>a.c2017-1-131297-1501787513071-red
+2017-08-04 03:11:54 [readability.readability] INFO: Top 5 :  2.290 li.c2017-1-131297-1501787513071-item.oneline.c2017-1-131297-1501787513071-noprops>a.c2017-1-131297-1501787513071-red
+2017-08-04 03:11:55 [readability.readability] INFO: Top 5 : 50.681 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:55 [readability.readability] INFO: Top 5 : 23.982 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:55 [readability.readability] INFO: Top 5 : 50.713 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:55 [readability.readability] INFO: Top 5 : 23.994 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:56 [readability.readability] INFO: Top 5 : 47.472 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:56 [readability.readability] INFO: Top 5 : 22.560 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:56 [readability.readability] INFO: Top 5 :  2.310 li.c2017-1-131297-1501787516098-item.oneline.c2017-1-131297-1501787516098-noprops>a.c2017-1-131297-1501787516098-red
+2017-08-04 03:11:56 [readability.readability] INFO: Top 5 :  2.310 li.c2017-1-131297-1501787516098-item.oneline.c2017-1-131297-1501787516098-noprops>a.c2017-1-131297-1501787516098-red
+2017-08-04 03:11:56 [readability.readability] INFO: Top 5 :  2.310 li.c2017-1-131297-1501787516098-item.oneline.c2017-1-131297-1501787516098-noprops>a.c2017-1-131297-1501787516098-red
+2017-08-04 03:11:57 [readability.readability] INFO: Top 5 : 47.483 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:11:57 [readability.readability] INFO: Top 5 : 22.564 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:11:57 [readability.readability] INFO: Top 5 :  2.310 li.c2017-1-131297-1501787516098-item.oneline.c2017-1-131297-1501787516098-noprops>a.c2017-1-131297-1501787516098-red
+2017-08-04 03:11:57 [readability.readability] INFO: Top 5 :  2.310 li.c2017-1-131297-1501787516098-item.oneline.c2017-1-131297-1501787516098-noprops>a.c2017-1-131297-1501787516098-red
+2017-08-04 03:11:57 [readability.readability] INFO: Top 5 :  2.310 li.c2017-1-131297-1501787516098-item.oneline.c2017-1-131297-1501787516098-noprops>a.c2017-1-131297-1501787516098-red
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  5.229 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  5.124 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  5.024 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  5.229 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  5.124 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:58 [readability.readability] INFO: Top 5 :  5.024 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  4.526 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  4.380 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  4.178 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  4.526 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  4.380 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:11:59 [readability.readability] INFO: Top 5 :  4.178 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:00 [readability.readability] INFO: Top 5 : 48.536 #mod-list.mod-list>.list-content
+2017-08-04 03:12:00 [readability.readability] INFO: Top 5 : 27.208 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w1190>body#readabilityBody
+2017-08-04 03:12:00 [readability.readability] INFO: Top 5 :  9.982 body#readabilityBody>#youjiaGlobalHeader201601.youjiaGlobalHeader201601
+2017-08-04 03:12:00 [readability.readability] INFO: Top 5 :  8.350 .list-content>.list-item.list-dairy
+2017-08-04 03:12:00 [readability.readability] INFO: Top 5 :  8.335 .list-content>.list-item.list-dairy
+2017-08-04 03:12:01 [readability.readability] INFO: Top 5 : 48.083 #mod-list.mod-list>.list-content
+2017-08-04 03:12:01 [readability.readability] INFO: Top 5 : 27.194 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w1190>body#readabilityBody
+2017-08-04 03:12:01 [readability.readability] INFO: Top 5 :  9.982 body#readabilityBody>#youjiaGlobalHeader201601.youjiaGlobalHeader201601
+2017-08-04 03:12:01 [readability.readability] INFO: Top 5 :  8.335 .list-content>.list-item.list-dairy
+2017-08-04 03:12:01 [readability.readability] INFO: Top 5 :  8.320 .list-content>.list-item.list-dairy
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 : 47.169 #mod-list.mod-list>.list-content
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 : 27.222 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w1190>body#readabilityBody
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 :  9.982 body#readabilityBody>#youjiaGlobalHeader201601.youjiaGlobalHeader201601
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 :  8.425 .list-content>.list-item.list-dairy
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 :  8.417 .list-content>.list-item.list-dairy
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 : 47.285 #mod-list.mod-list>.list-content
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 : 27.224 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w1190>body#readabilityBody
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 :  9.982 body#readabilityBody>#youjiaGlobalHeader201601.youjiaGlobalHeader201601
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 :  9.217 .list-content>.list-item.list-dairy
+2017-08-04 03:12:02 [readability.readability] INFO: Top 5 :  9.181 .list-content>.list-item.list-dairy
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 : 50.799 #mod-list.mod-list>.list-content
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 : 27.218 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w1190>body#readabilityBody
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 : 12.605 .list-content>.list-item.list-dairy
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 :  9.982 body#readabilityBody>#youjiaGlobalHeader201601.youjiaGlobalHeader201601
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 :  9.749 .list-content>.list-item.list-dairy
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 : 46.811 #mod-list.mod-list>.list-content
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 : 27.209 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari.w1190>body#readabilityBody
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 :  9.982 body#readabilityBody>#youjiaGlobalHeader201601.youjiaGlobalHeader201601
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 :  9.181 .list-content>.list-item.list-dairy
+2017-08-04 03:12:03 [readability.readability] INFO: Top 5 :  8.332 .list-content>.list-item.list-dairy
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  5.112 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  4.852 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  4.702 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  5.112 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  4.852 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:04 [readability.readability] INFO: Top 5 :  4.702 li.lx-l2-item.J_item>.right-wrap
+2017-08-04 03:12:06 [readability.readability] INFO: Top 5 : 725.600 body#readabilityBody>.agreementpreview.agr-content
+2017-08-04 03:12:06 [readability.readability] INFO: Top 5 : 372.800 html>body#readabilityBody
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 : 30.687 .right-info>.main
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 :  8.400 .main>.service-promise
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 :  7.993 table.contact-table>tbody
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 :  4.730 tbody>tr{02}
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 :  3.080 tbody>tr{01}
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 : 725.600 body#readabilityBody>.agreementpreview.agr-content
+2017-08-04 03:12:07 [readability.readability] INFO: Top 5 : 372.800 html>body#readabilityBody
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:08 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:09 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:09 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:09 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:09 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:09 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:10 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:10 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:10 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:10 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:10 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:12 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:13 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:13 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:13 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:13 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:13 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:14 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:14 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:14 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:14 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:14 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:15 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:16 [readability.readability] INFO: Top 5 : 64.068 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:16 [readability.readability] INFO: Top 5 : 29.615 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:16 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:16 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:17 [readability.readability] INFO: Top 5 : 64.047 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:17 [readability.readability] INFO: Top 5 : 29.606 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:17 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:17 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:18 [readability.readability] INFO: Top 5 : 63.953 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:18 [readability.readability] INFO: Top 5 : 29.563 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:18 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:18 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:19 [readability.readability] INFO: Top 5 : 63.932 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:19 [readability.readability] INFO: Top 5 : 29.553 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:19 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:19 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:20 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:20 [scrapy.extensions.logstats] INFO: Crawled 103 pages (at 54 pages/min), scraped 0 items (at 0 items/min)
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:21 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 :  0.158 .content>.last-box
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 :  0.158 .content>.last-box
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:22 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:23 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:24 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:25 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.710 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.490 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.400 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.390 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.340 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.710 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.490 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.400 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.390 .reply>.message.J_lpContent
+2017-08-04 03:12:26 [readability.readability] INFO: Top 5 : 32.340 .reply>.message.J_lpContent
+2017-08-04 03:12:27 [readability.readability] INFO: Top 5 : 81.580 .article-section.clearfix>.content
+2017-08-04 03:12:27 [readability.readability] INFO: Top 5 : 53.938 #page.w990>.article-section.clearfix
+2017-08-04 03:12:27 [readability.readability] INFO: Top 5 : 25.873 .wrapper>#page.w990
+2017-08-04 03:12:27 [readability.readability] INFO: Top 5 : 21.930 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody
+2017-08-04 03:12:27 [readability.readability] INFO: Top 5 :  6.648 body#readabilityBody>#bu-wrap
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:28 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : 33.975 main_view>.main-content
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : 10.490 .main-content>#gate_jubao.gate
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 :  7.460 .main-content>#gate_branch.gate
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -7.015 .footer>.footer-hd
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -7.264 .footer>.footer-hd
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -8.683 body#readabilityBody>.footer
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -8.692 .footer_2014>.footer
+2017-08-04 03:12:29 [readability.readability] INFO: Top 5 : -8.944 .footer>.footer-bd
+2017-08-04 03:12:30 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:30 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:30 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:30 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:30 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:31 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:32 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:32 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:32 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:32 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:32 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:33 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 : 63.981 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 : 29.575 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:34 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:35 [readability.readability] INFO: Top 5 : 63.981 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:35 [readability.readability] INFO: Top 5 : 29.575 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:35 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:35 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 : 64.108 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 : 29.634 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 : 64.087 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 : 29.624 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:36 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:37 [readability.readability] INFO: Top 5 : 63.749 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:37 [readability.readability] INFO: Top 5 : 29.469 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:37 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:37 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:38 [readability.readability] INFO: Top 5 : 63.728 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:38 [readability.readability] INFO: Top 5 : 29.460 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:38 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:38 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:38 [scrapy.core.scraper] ERROR: Error downloading <GET https://login.taobao.com/member/login.jhtml?sub=true&redirectURL=http%3A%2F%2Ftqgfreeway.ju.taobao.com%2Ffront%2Fdaily_activities_recommend.htm>
+Traceback (most recent call last):
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/python/failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/c/.local/lib/python3.5/site-packages/twisted/internet/defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/c/.local/lib/python3.5/site-packages/scrapy/core/downloader/handlers/http11.py", line 306, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://login.taobao.com/member/login.jhtml?sub=true&redirectURL=http%3A%2F%2Ftqgfreeway.ju.taobao.com%2Ffront%2Fdaily_activities_recommend.htm took longer than 15.0 seconds..
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 : 63.976 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 : 29.573 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 : 63.976 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 : 29.573 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:39 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:40 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:40 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:40 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:40 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:40 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:41 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:41 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:41 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:41 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:41 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:42 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 : 64.148 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 : 29.652 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 : 64.127 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 : 29.642 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:43 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:44 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:44 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:44 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:44 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:44 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:45 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:45 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:45 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:45 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:45 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 : 63.968 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 : 29.569 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 : 63.947 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 : 29.560 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:46 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 : 63.988 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 : 29.579 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 : 63.988 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 : 29.579 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:47 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:49 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:50 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:51 [readability.readability] INFO: Top 5 : 64.004 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:51 [readability.readability] INFO: Top 5 : 29.586 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:51 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:51 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:52 [readability.readability] INFO: Top 5 : 64.004 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:52 [readability.readability] INFO: Top 5 : 29.586 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:52 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:52 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:53 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:54 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:55 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:55 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:55 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:55 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:55 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:56 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:56 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:56 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:56 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:56 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:57 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:12:58 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:12:59 [readability.readability] INFO: Top 5 : 64.044 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:12:59 [readability.readability] INFO: Top 5 : 29.604 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:12:59 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:12:59 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:00 [readability.readability] INFO: Top 5 : 64.023 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:13:00 [readability.readability] INFO: Top 5 : 29.595 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:13:00 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:00 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:01 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:02 [readability.readability] INFO: Top 5 : 64.097 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:13:02 [readability.readability] INFO: Top 5 : 29.628 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:13:02 [readability.readability] INFO: Top 5 : 10.000 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:02 [readability.readability] INFO: Top 5 :  7.500 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:03 [readability.readability] INFO: Top 5 : 64.075 body#readabilityBody.response-normal>#page.srp-page
+2017-08-04 03:13:03 [readability.readability] INFO: Top 5 : 29.619 html.ks-webkit538.ks-webkit.ks-safari2.ks-safari>body#readabilityBody.response-normal
+2017-08-04 03:13:03 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:03 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:04 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:05 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:05 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:05 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:05 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:05 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:06 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:06 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:06 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:06 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:06 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:07 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:08 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:09 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:09 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:09 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:09 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:09 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:10 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:10 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:10 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:10 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:10 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:11 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 :  9.996 .module>.jiyoujia-nav-201505
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 :  7.497 #guid-1434711935084.skin-default>.module
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 : -3.532 .tb-footer.tb-footer-with-logo>.tb-footer-hd
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 : -5.866 #srp-footer>.tb-footer.tb-footer-with-logo
+2017-08-04 03:13:12 [readability.readability] INFO: Top 5 : -6.508 .tb-footer.tb-footer-with-logo>.tb-footer-bd
+2017-08-04 03:13:12 [scrapy.extensions.logstats] INFO: Crawled 143 pages (at 40 pages/min), scraped 0 items (at 0 items/min)
+2017-08-04 03:13:13 [scrapy.crawler] INFO: Received SIGTERM, shutting down gracefully. Send again to force 
+2017-08-04 03:13:13 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-08-04 03:13:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 14,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 14,
+ 'downloader/request_bytes': 44348,
+ 'downloader/request_count': 157,
+ 'downloader/request_method_count/GET': 157,
+ 'downloader/response_bytes': 5239062,
+ 'downloader/response_count': 143,
+ 'downloader/response_status_count/200': 143,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 8, 3, 19, 13, 13, 590571),
+ 'log_count/ERROR': 15,
+ 'log_count/INFO': 1007,
+ 'response_received_count': 143,
+ 'scheduler/dequeued/redis': 157,
+ 'scheduler/enqueued/redis': 157,
+ 'spider_exceptions/OSError': 1,
+ 'start_time': datetime.datetime(2017, 8, 3, 19, 10, 8, 508019)}
+2017-08-04 03:13:13 [scrapy.core.engine] INFO: Spider closed (shutdown)

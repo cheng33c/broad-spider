@@ -105,6 +105,21 @@ FILTER_PORT = 6379
 FILTER_DB = 0
 # REDIS_QUEUE_NAME = 'OneName'   # 如果不设置或者设置为None，则使用默认的，每个spider使用不同的去重队列和种子队列。如果设置了，则不同spider共用去重队列和种子队列
 
+# 增加并发数到100
+CONCURRENT_REQUESTS = 100
+# 增加线程池最大值
+REACTOR_THREADPOOL_MAXSIZE = 20
+# log级别
+LOG_LEVEL = 'INFO'
+# 禁止cookies以提高性能
+COOKIES_ENABLED = False
+# 禁止重试
+RETRY_ENABLED = False
+# 禁止下载超时
+DOWNLOAD_TIMEOUT = 15
+# 启动ajax爬取
+AJAXCRAWL_ENABLED = True
+
 """
     这是去重队列的Redis信息。
     原先的REDIS_HOST、REDIS_PORT只负责种子队列；由此种子队列和去重队列可以分布在不同的机器上。

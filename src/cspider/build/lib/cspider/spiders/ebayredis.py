@@ -12,6 +12,7 @@ from .general_config import *
 from .spider_config import *
 
 browser = webdriver.PhantomJS(service_args=SERVICE_AGES)
+#browser = webdriver.Chrome()
 browser.set_window_size(1400, 900)
 
 bloom_links = BloomFilter(capacity=100000, error_rate=0.001)
@@ -25,11 +26,13 @@ class EbayredisSpider(RedisSpider):
     index_count = 0
     baseurl = ''
     ip = ""
+    # 要把他弄成通用的"限制域名"
+    dns = "taobao"
 
     def __init__(self, *args, **kwargs):
         # Dynamically define the allowed domains list.
         domain = kwargs.pop('domain', '')
-        #r.rpush(spider_name, "http://www.taobao.com")
+        r.rpush(spider_name, "http://www.taobao.com/")
         self.allowed_domains = filter(None, domain.split(','))
         super(EbayredisSpider, self).__init__(*args, **kwargs)
 
@@ -46,14 +49,15 @@ class EbayredisSpider(RedisSpider):
                SERVICE_AGES.append(proxy)
             return self.parse(response)
 
-        time.sleep(0.2)
+        time.sleep(0.1)
         r.rpush(downloader_name, link)
         hrefs = response.xpath('//a/@href').extract()
 
         for href in hrefs:
             # 是否符合规则，符合规则按规则处理url
-            if (pattern1.match(href) or pattern4.match(href) or
-                            href=='' or href[0]=='#' or bloom_links.add(href) == True): continue
+            if (pattern1.match(href) or pattern4.match(href) or href=='' or href[0]=='#'
+                or bloom_links.add(href) == True or self.dns not in href):
+                continue
             if (pattern2.match(href)): href = pattern2.sub('',href)
             if (pattern3.match(href) == None): href = 'http://' + href
             if (pattern5.match(href)): continue

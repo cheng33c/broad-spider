@@ -1,21 +1,95 @@
-[INFO  - 2017-07-22T19:17:11.548Z] GhostDriver - Main - running on port 42953
-[INFO  - 2017-07-22T19:17:12.453Z] Session [5d5bc800-6f12-11e7-9afb-d36df0e49c9d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-07-22T19:17:12.453Z] Session [5d5bc800-6f12-11e7-9afb-d36df0e49c9d] - page.customHeaders:  - {}
-[INFO  - 2017-07-22T19:17:12.453Z] Session [5d5bc800-6f12-11e7-9afb-d36df0e49c9d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-07-22T19:17:12.453Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5d5bc800-6f12-11e7-9afb-d36df0e49c9d
-[ERROR - 2017-07-22T19:17:37.048Z] Session [5cbca1d0-6f12-11e7-8604-f13a71fcad45] - page.onError - msg: Error: The member that you want to add to KISSY already exists!
+[INFO  - 2017-08-03T19:10:07.514Z] GhostDriver - Main - running on port 53987
+[INFO  - 2017-08-03T19:10:08.436Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-08-03T19:10:08.436Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.customHeaders:  - {}
+[INFO  - 2017-08-03T19:10:08.436Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-08-03T19:10:08.436Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5d94c4e0-787f-11e7-8e2a-93771b1b7e94
+[INFO  - 2017-08-03T19:13:17.664Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-07-22T19:17:37.048Z] Session [5cbca1d0-6f12-11e7-8604-f13a71fcad45] - page.onError - stack:
-  addMember (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,tbc/global/0.0.8/index-min.js,tms/tb-init/6.1.1/index-min.js:6)
-  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  i (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  i (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  i (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
-  e (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.8/index-min.js:5)
+[ERROR - 2017-08-03T19:10:25.545Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.7/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[[ERROR - 2017-08-03T19:11:53.676Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - msg: TypeError: undefined is not an object (evaluating 'TB.Global.writeLoginInfo')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:11:53.676Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - stack:
+  global code (http://www.taobao.com/about/contact.php:23)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:11:53.678Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - msg: TypeError: undefined is not an object (evaluating 'TB.Global.init')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:11:53.678Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - stack:
+  global code (http://www.taobao.com/about/contact.php:113)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:09.508Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - msg: TypeError: undefined is not an object (evaluating 'a.offset().top')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:09.508Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - stack:
+  publishRequirement (https://g.alicdn.com/sj/topservice/2.1.6/apc-v4/publish/scripts/common/??common.js,header_footer.js,:1)
+  (anonymous function) (https://g.alicdn.com/sj/topservice/2.1.6/apc-v4/publish/scripts/common/??common.js,header_footer.js,:1)
+  j (https://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js:2)
+  fireWith (https://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js:2)
+  ready (https://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js:2)
+  J (https://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:20.270Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - msg: Error: Script error for "app/brix"
+http://requirejs.org/docs/errors.html#scripterror
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:20.271Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - stack:
+  defaultOnError (http://g.alicdn.com/thx/brix-release/1.0.0-beta.2/require-config-css.js:1)
+  u (http://g.alicdn.com/thx/brix-release/1.0.0-beta.2/require-config-css.js:1)
+  onScriptError (http://g.alicdn.com/thx/brix-release/1.0.0-beta.2/require-config-css.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:20.273Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - msg: Error: Script error for "handlebars", needed by: app/handlebars-helper
+http://requirejs.org/docs/errors.html#scripterror
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:20.273Z] Session [1b726130-787f-11e7-9235-79d21517cdf8] - page.onError - stack:
+  defaultOnError (http://g.alicdn.com/thx/brix-release/1.0.0-beta.2/require-config-css.js:1)
+  u (http://g.alicdn.com/thx/brix-release/1.0.0-beta.2/require-config-css.js:1)
+  onScriptError (http://g.alicdn.com/thx/brix-release/1.0.0-beta.2/require-config-css.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-08-03T19:13:16.555Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:10:25.546Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.7/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:10:25.546Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - msg: kg/search-suggest/6.2.11/plugin/imgsearch is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:10:25.546Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.7/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:10:25.547Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - msg: kg/search-suggest/6.2.11/theme/pailitao/index is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:10:25.547Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.7/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:06.827Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'TB.Global.writeLoginInfo')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:06.828Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - stack:
+  global code (http://www.taobao.com/about/contact.php:23)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:06.842Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - msg: TypeError: undefined is not an object (evaluating 'TB.Global.init')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-03T19:12:06.842Z] Session [5d94c4e0-787f-11e7-8e2a-93771b1b7e94] - page.onError - stack:
+  global code (http://www.taobao.com/about/contact.php:113)
 
   phantomjs://platform/console++.js:263 in error
